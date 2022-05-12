@@ -123,7 +123,6 @@ plt.show()
 
 -----------------------------------------------------
 -----------------logistic regression part------------
-#https://realpython.com/logistic-regression-python/
 
 x = pd.DataFrame(binned_zscore)
 y = binned_behavior
@@ -177,7 +176,6 @@ plt.show()
 
 
 ----------------check----------------
-#https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
 
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import roc_curve
