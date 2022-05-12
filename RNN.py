@@ -86,7 +86,7 @@ plt.show()
 
 
 
-random.seed(2022) ####################
+random.seed(2022) 
 y = t.T.values
 x_training,x_test = x[0:int(0.7*x.shape[0]),:],x[int(0.7*x.shape[0])+1:x.shape[0],:]
 y_training,y_test = y[0:int(0.7*y.shape[0])],y[int(0.7*y.shape[0])+1:y.shape[0]]
@@ -143,13 +143,13 @@ x_test_data_sub = np.array(x_test_data_sub)
 #x_training_data = np.reshape(x_training_data, (x_training_data.shape[0],x_training_data.shape[1],1))
 # x_training_data = np.reshape(x_training_data, (x_training_data.shape[0],x_training_data.shape[1],1))
 # x_test_data = np.reshape(x_test_data, (x_test_data.shape[0],x_test_data.shape[1],1))
-random.seed(2022) ####################
+random.seed(2022) 
 y_training_data = np.reshape(y_training_data,(y_training_data.shape[0],1,1))
 y_test_data = np.reshape(y_test_data, (y_test_data.shape[0],1,1))
 
 
 
-random.seed(2022) ####################
+random.seed(2022)
 # Building my RNN
 rnn = Sequential()
 
@@ -168,7 +168,7 @@ rnn.add(Dense(1, activation='sigmoid'))
 
 
 
-random.seed(2022) ####################
+random.seed(2022) 
 rnn.compile(optimizer='adam',loss='mean_squared_error')
 rnn.fit(x_training_data,y_training_data,epochs = 300,batch_size=32)
 
