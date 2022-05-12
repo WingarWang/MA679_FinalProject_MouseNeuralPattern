@@ -1,4 +1,4 @@
-# MA679_FinalProject_MouseNeuralPattern
+# MA679 FinalProject Mouse Neural Pattern
 
 Group number: Yujia Wang, Yuyang Li, Yuchen Liu
 
