@@ -13,10 +13,6 @@ import seaborn as sns
 
 ---------------------------------------
 -----------------------EDA-------------
-#file1 = 'C:/Users/liyuyang/Desktop/BU/2022spring/679/mouse proj/OneDrive_1_4-2-2022/binned_behavior.mat'
-#file2 = 'C:/Users/liyuyang/Desktop/BU/2022spring/679/mouse proj/OneDrive_1_4-2-2022/binned_behavior-2.mat'
-#file3 = 'C:/Users/liyuyang/Desktop/BU/2022spring/679/mouse proj/OneDrive_1_4-2-2022/binned_zscore.mat'
-#file4 = 'C:/Users/liyuyang/Desktop/BU/2022spring/679/mouse proj/OneDrive_1_4-2-2022/binned_zscore-2.mat'
 file1 = 'zero_maze/binned_behavior.mat'
 file2 = 'zero_maze/binned_behavior-2.mat'
 file3 = 'zero_maze/binned_zscore.mat'
@@ -39,11 +35,11 @@ plt.scatter(x,binned_behavior[1,],color = 'red',s = 0.1)
 
 plt.plot(binned_behavior_2)
 plt.plot(binned_zscore[:,19])
-plt.axhline(y= 1, ls='--', c='red') # 添加水平线
+plt.axhline(y= 1, ls='--', c='red') 
 plt.show()
 
 plt.plot(binned_zsocre_2)
-plt.axhline(y= 1, ls='--', c='red') # 添加水平线
+plt.axhline(y= 1, ls='--', c='red') 
 plt.show()
 
 t = binned_behavior
